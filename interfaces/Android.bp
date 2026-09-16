@@ -92,14 +92,6 @@ prebuilt_hidl_interfaces {
 }
 
 prebuilt_hidl_interfaces {
-    name: "hidl_vendor_xiaomi_hardware_citsensorservice_interface",
-    interfaces: [
-        "vendor.xiaomi.hardware.citsensorservice@1.0::ICitSensorService",
-        "vendor.xiaomi.hardware.citsensorservice@1.1::ICitSensorService",
-    ],
-}
-
-prebuilt_hidl_interfaces {
     name: "hidl_vendor_xiaomi_hardware_dtool_interface",
     interfaces: [
         "vendor.xiaomi.hardware.dtool@1.0::IDtool",

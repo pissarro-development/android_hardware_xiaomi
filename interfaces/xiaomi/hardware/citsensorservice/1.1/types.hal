@@ -1,0 +1,15 @@
+/*
+ * SPDX-FileCopyrightText: 2026 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+package vendor.xiaomi.hardware.citsensorservice@1.1;
+
+/**
+ * Opaque CIT (factory test) message for the SSC calibration API.
+ * Serialized as a flat 72-byte buffer. Declared as raw bytes to ensure 
+ * byte-for-byte compatibility with the stock library without guessing unknown fields.
+ */
+struct ssc_oem_test_msg {
+    uint8_t[72] payload;
+};

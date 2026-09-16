@@ -1,0 +1,15 @@
+/*
+ * SPDX-FileCopyrightText: 2026 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+package vendor.xiaomi.hardware.citsensorservice@1.1;
+
+import @1.0::ICitSensorService;
+
+interface ICitSensorService extends @1.0::ICitSensorService {
+    /**
+     * Transaction code 4.
+     */
+    send_ssc_oem_test_msg(ssc_oem_test_msg request) generates (ssc_oem_test_msg response);
+};
