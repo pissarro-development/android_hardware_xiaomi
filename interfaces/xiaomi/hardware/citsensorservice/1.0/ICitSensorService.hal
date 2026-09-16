@@ -1,0 +1,23 @@
+/*
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+package vendor.xiaomi.hardware.citsensorservice@1.0;
+
+interface ICitSensorService {
+    /**
+     * Transaction code 1.
+     */
+    initService() generates (int32_t result);
+
+    /**
+     * Transaction code 2.
+     */
+    deinitService() generates (int32_t result);
+
+    /**
+     * Transaction code 3.
+     */
+    halleventlistener() generates (int32_t result);
+};
